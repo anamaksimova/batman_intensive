@@ -13,10 +13,13 @@
 
 <body>
     <header class="header">
-        <nav class="header__navigation navigation">
+        <button class="burger"></button>
+        <nav class="header__navigation navigation navigation ">
+            <button class="navigation__close"></button>
+
             <ul class="navigation__list">
                 <li class="navigation__item">
-                    <a class="navigation__link">Главная</a>
+                    <a class="navigation__link navigation__link_active">Главная</a>
                 </li>
                 <li class="navigation__item">
                     <a class="navigation__link" href="video.html">Видео</a>
@@ -27,9 +30,9 @@
             </ul>
             <p class="header__hashtag">#TheBatman</p>
             <ul class="header__social social">
-                <li class="social__item"><a class="social__link" href=""></a>fb</li>
-                <li class="social__item"><a class="social__link" href=""></a>tw</li>
-                <li class="social__item"><a class="social__link" href=""></a>ig</li>
+                <li class="social__item"><a class="social__link social__link_fb" href=""></a></li>
+                <li class="social__item"><a class="social__link social__link_twitter" href=""></a></li>
+                <li class="social__item"><a class="social__link social__link_instagram" href=""></a></li>
 
             </ul>
         </nav>
@@ -40,8 +43,8 @@
 
     </header>
 
-    <main class="main">
-        <img class="main" src="photos/logo.png" alt="Логотив к фильму Бэтмен"width=329px height="235px">
+    <main class="main main_index">
+        <img class="logo" src="photos/logo.png" alt="Логотив к фильму Бэтмен"width=329px height="235px">
     </main>
 
     <footer class="footer">
